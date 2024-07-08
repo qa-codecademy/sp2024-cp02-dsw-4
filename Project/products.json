@@ -1,0 +1,707 @@
+{
+    "kitchen": [
+        {
+            "id": "1",
+            "image": "../assets/kitchen/frying-pan.webp",
+            "name": "FRYING PAN",
+            "newPrice": "30.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "High-quality frying pan with non-stick coating for easy cooking and cleaning.",
+            "onSale": false
+        },
+        {
+            "id": "2",
+            "image": "../assets/kitchen/kettle-2.4l.webp",
+            "name": "KETTLE 2.4 L",
+            "newPrice": "140.99 EUR",
+            "oldPrice": "200.99 EUR",
+            "description": "Stylish 2.4L kettle, perfect for quick boiling and energy efficiency.",
+            "onSale": false
+        },
+        {
+            "id": "3",
+            "image": "../assets/kitchen/casserole-2.0l-16cm-with-lid.webp",
+            "name": "POT, 7.0 L, Ø 24CM, H. 16.5CM WITH LID AND ANALOG THERMOCONTROL",
+            "newPrice": "193.99 EUR",
+            "oldPrice": "275.99 EUR",
+            "description": "Large pot with a lid and analog thermocontrol, ideal for cooking big meals.",
+            "onSale": false
+        },
+        {
+            "id": "4",
+            "image": "../assets/kitchen/kitchen-paring-knife-solingen-12cm.webp",
+            "name": "KITCHEN PARING KNIFE SOLINGEN FELIX (12 cm blade)",
+            "newPrice": "50.99 EUR",
+            "oldPrice": "73.99 EUR",
+            "description": "Precision paring knife with a 12 cm blade, perfect for detailed kitchen tasks.",
+            "onSale": false
+        },
+        {
+            "id": "5",
+            "image": "../assets/kitchen/felix-cutting-board.webp",
+            "name": "FELIX CUTTING BOARD 20x29cm",
+            "newPrice": "15.99 EUR",
+            "oldPrice": "25.99 EUR",
+            "description": "Durable cutting board, ideal for all your chopping and slicing needs.",
+            "onSale": true
+        },
+        {
+            "id": "6",
+            "image": "../assets/kitchen/vascy-glass-container-12x.webp",
+            "name": "VACSY® GLASS CONTAINER 12 X 20 X H. 8 CM, 1.5 L",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "40.99 EUR",
+            "description": "Glass container with a vacuum seal, perfect for storing leftovers and keeping food fresh.",
+            "onSale": true
+        },
+        {
+            "id": "7",
+            "image": "../assets/kitchen/analogue-controller.webp",
+            "name": "ANALOGUE THERMOCONTROLLER",
+            "newPrice": "5.99 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "Analog thermocontroller for precise temperature management in cooking.",
+            "onSale": true
+        },
+        {
+            "id": "8",
+            "image": "../assets/kitchen/venus-high-mirror-polished.webp",
+            "name": "SENATOR HIGH MIRROR POLISHED 36-PIECE CUTLERY SET",
+            "newPrice": "45.99 EUR",
+            "oldPrice": "89.99 EUR",
+            "description": "Elegant 36-piece cutlery set with a high mirror polish finish, perfect for any dining occasion.",
+            "onSale": true
+        },
+        {
+            "id": "9",
+            "image": "../assets/kitchen/click-pressure-lid.png",
+            "name": "SYNCRO-CLIK PRESSURE LID, Ø 24 CM",
+            "newPrice": "56.99 EUR",
+            "oldPrice": "100.99 EUR",
+            "description": "Syncro-Clik pressure lid, fits 24 cm pots, ideal for pressure cooking.",
+            "onSale": true
+        },
+        {
+            "id": "10",
+            "image": "../assets/kitchen/cobalt-royal-porcelain.webp",
+            "name": "COBALT ROYAL - COMPLETE PORCELAIN DINNER AND COFFEE",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "40.99 EUR",
+            "description": "Elegant porcelain dinner and coffee set, perfect for special occasions.",
+            "onSale": true
+        },
+        {
+            "id": "11",
+            "image": "../assets/kitchen/coral-12-set-for-6-person.webp",
+            "name": "CORAL - 12 PC COFFEE SET FOR 6 PERSONS",
+            "newPrice": "90.99 EUR",
+            "oldPrice": "150.99 EUR",
+            "description": "Beautiful 12-piece coffee set for 6 persons, ideal for gatherings.",
+            "onSale": true
+        },
+        {
+            "id": "12",
+            "image": "../assets/kitchen/espresso-pot-kitty-2.webp",
+            "name": "ESPRESSO POT KITTY 2 CUP S",
+            "newPrice": "24.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Compact espresso pot for 2 cups, perfect for coffee enthusiasts.",
+            "onSale": true
+        },
+        {
+            "id": "13",
+            "image": "../assets/kitchen/kitchen-shears-stainless.webp",
+            "name": "KITCHEN SHEARS, STAINLESS STEEL",
+            "newPrice": "5.99 EUR",
+            "oldPrice": "9.99 EUR",
+            "description": "Stainless steel kitchen shears, ideal for a variety of kitchen tasks.",
+            "onSale": false
+        },
+        {
+            "id": "14",
+            "image": "../assets/kitchen/magic-harmony-crystal.webp",
+            "name": "MAGIC HARMONY CRYSTAL & STAINLESS STEEL WHITE WINE ",
+            "newPrice": "80.99 EUR",
+            "oldPrice": "150.99 EUR",
+            "description": "Elegant crystal and stainless steel white wine set, perfect for wine lovers.",
+            "onSale": false
+        },
+        {
+            "id": "15",
+            "image": "../assets/kitchen/magnetic-stand-knife.webp",
+            "name": "MAGNETIC KNIFE STAND, SOLID WALNUT",
+            "newPrice": "14.99 EUR",
+            "oldPrice": "20.99 EUR",
+            "description": "Solid walnut magnetic knife stand, ideal for safely storing your knives.",
+            "onSale": true
+        }
+    ],
+    "toys": [
+        {
+            "id": "16",
+            "image": "../assets/toys/disney-junior-minnie-mouse.webp",
+            "name": "DISNEY JUNIOR MINNIE MOUSE BUTTERFLY BALLERINA PLUSH - INTERACTIVE, LIGHTS & SOUNDS",
+            "newPrice": "11.99 EUR",
+            "oldPrice": "39.99 EUR",
+            "description": "Interactive Minnie Mouse plush toy with lights and sounds, perfect for kids.",
+            "onSale": true
+        },
+        {
+            "id": "17",
+            "image": "../assets/toys/fisher-price-thomas.webp",
+            "name": "FISHER-PRICE THOMAS & FRIENDS WOODEN RAILWAY - THOMAS ENGINE",
+            "newPrice": "9.99 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "Classic Thomas the Tank Engine toy, perfect for young train enthusiasts.",
+            "onSale": false
+        },
+        {
+            "id": "18",
+            "image": "../assets/toys/hot-wheels-marvel-wood-car.webp",
+            "name": "HOT WHEELS MARVEL WOOD CAR RACERS DIY KIT - BLACK PANTHER & CAPTAIN AMERICA",
+            "newPrice": "10.55 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "DIY kit for creating Hot Wheels Marvel wood car racers, includes Black Panther and Captain America.",
+            "onSale": false
+        },
+        {
+            "id": "19",
+            "image": "../assets/toys/lego-harry-potter-2.660pieces.webp",
+            "name": "LEGO HARRY POTTER HOGWARTS CASTLE AND GROUNDS 76419 BUILDING SET - 2,660 PIECES",
+            "newPrice": "119.99 EUR",
+            "oldPrice": "169.99 EUR",
+            "description": "Detailed LEGO set of Hogwarts Castle and Grounds, perfect for Harry Potter fans.",
+            "onSale": false
+        },
+        {
+            "id": "20",
+            "image": "../assets/toys/little-people-baarbie.webp",
+            "name": "LITTLE PEOPLE BARBIE DREAMHOUSE TODDLER PLAYSET WITH LIGHTS AND SOUNDS",
+            "newPrice": "34.45 EUR",
+            "oldPrice": "53.99 EUR",
+            "description": "Toddler-friendly Barbie Dreamhouse playset with interactive lights and sounds.",
+            "onSale": true
+        },
+        {
+            "id": "21",
+            "image": "../assets/toys/batman-adventures-16armor.webp",
+            "name": "BATMAN ADVENTURES 12 COLLECTIBLE ACTION FIGURE WITH 16 ARMOR ACCESSORIES",
+            "newPrice": "12.99 EUR",
+            "oldPrice": "20.99 EUR",
+            "description": "Collectible Batman action figure with 16 armor accessories, perfect for fans.",
+            "onSale": true
+        }
+    ],
+    "gardening": [
+        {
+            "id": "22",
+            "image": "../assets/gardening-tools/wilkinson-sword-3-prong.webp",
+            "name": "WILKINSON SWORD 3 PRONG CULTIVATOR",
+            "newPrice": "12.99 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "3 prong cultivator for easy soil preparation and gardening tasks.",
+            "onSale": true
+        },
+        {
+            "id": "23",
+            "image": "../assets/gardening-tools/roller-moss-removal-rake.webp",
+            "name": "WOLF ROLLER MOSS REMOVAL RAKE",
+            "newPrice": "30.99 EUR",
+            "oldPrice": "40.99 EUR",
+            "description": "Efficient moss removal rake with rollers, perfect for lawn care.",
+            "onSale": false
+        },
+        {
+            "id": "24",
+            "image": "../assets/gardening-tools/wilkinson-sword-ultralight-shovel.webp",
+            "name": "WILKINSON SWORD ULTRALIGHT SHOVEL",
+            "newPrice": "39.66 EUR",
+            "oldPrice": "65.99 EUR",
+            "description": "Lightweight and durable shovel, ideal for a variety of gardening tasks.",
+            "onSale": false
+        },
+        {
+            "id": "25",
+            "image": "../assets/gardening-tools/wolf-adjustable-anvil.webp",
+            "name": "WOLF ADJUSTABLE ANVIL TREE LOPPER",
+            "newPrice": "25.33 EUR",
+            "oldPrice": "45.99 EUR",
+            "description": "Adjustable anvil tree lopper for precise and efficient pruning.",
+            "onSale": false
+        },
+        {
+            "id": "26",
+            "image": "../assets/gardening-tools/wolf-lawn-edge-trimmer.webp",
+            "name": "WOLF LAWN EDGE TRIMMER",
+            "newPrice": "17.84 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Lawn edge trimmer for maintaining neat and tidy lawn edges.",
+            "onSale": false
+        },
+        {
+            "id": "27",
+            "image": "../assets/gardening-tools/wolf-telescopic-anvil-loppers.webp",
+            "name": "WOLF TELESCOPIC ANVIL LOPPERS POWER CUT - 50MM",
+            "newPrice": "56.99 EUR",
+            "oldPrice": "70.99 EUR",
+            "description": "Telescopic anvil loppers with power cut technology, perfect for tough pruning jobs.",
+            "onSale": true
+        }
+    ],
+    "jewellery": [
+        {
+            "id": "28",
+            "image": "../assets/jewellery/adorable-heart-necklace.webp",
+            "name": "ADORABLE HEART NECKLACE",
+            "newPrice": "4000.00 EUR",
+            "oldPrice": "5000.00 EUR",
+            "description": "Elegant heart necklace, perfect for expressing love and affection.",
+            "onSale": true
+        },
+        {
+            "id": "29",
+            "image": "../assets/jewellery/geometric-dangle-drop-earrings.webp",
+            "name": "GEOMETRIC DANGLE DROP EARRINGS",
+            "newPrice": "6000.00 EUR",
+            "oldPrice": "8000.00 EUR",
+            "description": "Stylish geometric dangle drop earrings, a chic addition to any outfit.",
+            "onSale": false
+        },
+        {
+            "id": "30",
+            "image": "../assets/jewellery/luster-pearl-hoop-earrings.webp",
+            "name": "LUSTER PEARL HOOP EARRINGS",
+            "newPrice": "3000.00 EUR",
+            "oldPrice": "6000.00 EUR",
+            "description": "Elegant pearl hoop earrings, perfect for a sophisticated look.",
+            "onSale": false
+        },
+        {
+            "id": "31",
+            "image": "../assets/jewellery/minimal-modern-bracelet.webp",
+            "name": "MINIMAL MODERN BRACELET",
+            "newPrice": "1500.00 EUR",
+            "oldPrice": "2500.00 EUR",
+            "description": "Modern and minimal bracelet, perfect for everyday wear.",
+            "onSale": false
+        },
+        {
+            "id": "32",
+            "image": "../assets/jewellery/radiant-floral-diamond-mangalsutra.webp",
+            "name": "RADIANT FLORAL DIAMOND MANGALSUTRA",
+            "newPrice": "3300.00 EUR",
+            "oldPrice": "5500.00 EUR",
+            "description": "Beautiful floral diamond mangalsutra, perfect for traditional occasions.",
+            "onSale": false
+        },
+        {
+            "id": "33",
+            "image": "../assets/jewellery/seashell-pearl-bangle.webp",
+            "name": "SEASHELL PEARL BANGLE",
+            "newPrice": "3475.00 EUR",
+            "oldPrice": "4500.00 EUR",
+            "description": "Elegant seashell pearl bangle, a unique addition to your jewellery collection.",
+            "onSale": true
+        }
+    ],
+    "electronics": [
+        {
+            "id": "34",
+            "image": "../assets/electronics/bluthoot-speaker.webp",
+            "name": "BLUETOOTH SPEAKERS",
+            "newPrice": "20.99 EUR",
+            "oldPrice": "45.99 EUR",
+            "description": "Portable Bluetooth speakers with high-quality sound and long battery life.",
+            "onSale": true
+        },
+        {
+            "id": "35",
+            "image": "../assets/electronics/digital-watch-man.webp",
+            "name": "FREE STYLIST DIGITAL WATCH FOR MEN, WOMEN AND KIDS",
+            "newPrice": "70.99 EUR",
+            "oldPrice": "100.99 EUR",
+            "description": "Versatile digital watch suitable for men, women, and kids, perfect for any occasion.",
+            "onSale": false
+        },
+        {
+            "id": "36",
+            "image": "../assets/electronics/fast-charger-cord.webp",
+            "name": "3.0A FAST CHARGER CORD + 3 IN 1 CABLE",
+            "newPrice": "6.99 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "Fast charger cord with 3-in-1 cable, compatible with multiple devices.",
+            "onSale": false
+        },
+        {
+            "id": "37",
+            "image": "../assets/electronics/gaming-mouse.webp",
+            "name": "DI RGB GAMING MOUSE",
+            "newPrice": "25.99 EUR",
+            "oldPrice": "45.99 EUR",
+            "description": "RGB gaming mouse with customizable lighting and high precision.",
+            "onSale": false
+        },
+        {
+            "id": "38",
+            "image": "../assets/electronics/holder-for-smartphones.webp",
+            "name": "HOLDER FOR SMARTPHONES AND TABLET MOBILE HOLDER",
+            "newPrice": "15.99 EUR",
+            "oldPrice": "25.99 EUR",
+            "description": "Versatile holder for smartphones and tablets, perfect for hands-free use.",
+            "onSale": true
+        },
+        {
+            "id": "39",
+            "image": "../assets/electronics/home-sweet-home-key-holder.webp",
+            "name": "HOME DECORE WOOD KEY HOLDER (7 HOOKS, BROWN)",
+            "newPrice": "2.99 EUR",
+            "oldPrice": "5.99 EUR",
+            "description": "Wooden key holder with 7 hooks, perfect for organizing your keys.",
+            "onSale": true
+        },
+        {
+            "id": "40",
+            "image": "../assets/electronics/multi-purpose-stand.webp",
+            "name": "MULTI-PURPOSE WALL MOUNTABLE MOBILE STAND HOLDER",
+            "newPrice": "5.99 EUR",
+            "oldPrice": "24.99 EUR",
+            "description": "Wall mountable mobile stand holder, perfect for saving space and easy access.",
+            "onSale": true
+        },
+        {
+            "id": "41",
+            "image": "../assets/electronics/wired-earphones-packof2.webp",
+            "name": "WIRED EARPHONES PACK OF 2",
+            "newPrice": "15.99 EUR",
+            "oldPrice": "42.99 EUR",
+            "description": "Pack of 2 wired earphones, providing clear sound quality and comfort.",
+            "onSale": true
+        }
+    ],
+    "fashion": [
+        {
+            "id": "42",
+            "image": "../assets/fashion/man-long-sleeve-ef83ai23.jpg",
+            "name": "MEN SKINNY FIT LONG JEANS - BLUE",
+            "newPrice": "23.99 EUR",
+            "oldPrice": "54.99 EUR",
+            "description": "Skinny fit long jeans for men, comfortable and stylish in blue.",
+            "onSale": true
+        },
+        {
+            "id": "43",
+            "image": "../assets/fashion/men-oversized-long-3492ssdsj3.jpg",
+            "name": "MEN LONG SLEEVE OVERSIZED SWEATSHIRT HOODIES - BLACK",
+            "newPrice": "11.99 EUR",
+            "oldPrice": "24.99 EUR",
+            "description": "Oversized long sleeve sweatshirt hoodie for men, perfect for a casual look.",
+            "onSale": false
+        },
+        {
+            "id": "44",
+            "image": "../assets/fashion/men-skinny-fit-kqs3h3729.jpg",
+            "name": "MEN OVERSIZED LONG SLEEVE SWEATSHIRT - BLACK",
+            "newPrice": "56.66 EUR",
+            "oldPrice": "75.99 EUR",
+            "description": "Stylish black oversized long sleeve sweatshirt for men, ideal for comfort.",
+            "onSale": false
+        },
+        {
+            "id": "45",
+            "image": "../assets/fashion/women-knit-short-fvd410381.jpg",
+            "name": "WOMEN KNIT SHORT SLEEVE TOP - BEIGE",
+            "newPrice": "22.33 EUR",
+            "oldPrice": "35.99 EUR",
+            "description": "Beige knit short sleeve top for women, perfect for casual wear.",
+            "onSale": false
+        },
+        {
+            "id": "46",
+            "image": "../assets/fashion/women-long-sweathirt-fva410337.jpg",
+            "name": "WOMEN KNIT SLEEVELESS TOP - DARK PINK",
+            "newPrice": "17.84 EUR",
+            "oldPrice": "80.99 EUR",
+            "description": "Dark pink knit sleeveless top for women, stylish and comfortable.",
+            "onSale": false
+        },
+        {
+            "id": "47",
+            "image": "../assets/fashion/women-oversized-ffva41023.jpg",
+            "name": "WOMEN LONG SLEEVE SWEATSHIRT - KHAKI",
+            "newPrice": "5.99 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "Khaki long sleeve sweatshirt for women, perfect for a relaxed look.",
+            "onSale": true
+        },
+        {
+            "id": "48",
+            "image": "../assets/fashion/women-sleeveless-top-fcd3kd.jpg",
+            "name": "WOMEN LONG SLEEVE OVERSIZED SWEATSHIRT - BLACK",
+            "newPrice": "14.99 EUR",
+            "oldPrice": "25.99 EUR",
+            "description": "Black oversized long sleeve sweatshirt for women, ideal for casual wear.",
+            "onSale": true
+        }
+    ],
+    "health": [
+        {
+            "id": "49",
+            "image": "../assets/health/bite-sting-spray.webp",
+            "name": "BITE&STING™ RELIEF SPRAY",
+            "newPrice": "23.99 EUR",
+            "oldPrice": "80.99 EUR",
+            "description": "Relief spray for bites and stings, providing quick and effective relief.",
+            "onSale": false
+        },
+        {
+            "id": "50",
+            "image": "../assets/health/dermikelp-itch-cream-25g.webp",
+            "name": "ITCH RELIEF CREAM 25G",
+            "newPrice": "15.99 EUR",
+            "oldPrice": "55.99 EUR",
+            "description": "Cream for itch relief, soothing and effective for irritated skin.",
+            "onSale": false
+        },
+        {
+            "id": "51",
+            "image": "../assets/health/imunivar-capsules-30s.webp",
+            "name": "IMUNIVAR® CAPSULES 30’S",
+            "newPrice": "30.66 EUR",
+            "oldPrice": "44.99 EUR",
+            "description": "Imunivar capsules, boosting immunity and overall health.",
+            "onSale": false
+        },
+        {
+            "id": "52",
+            "image": "../assets/health/itch-relief-cream-50g.webp",
+            "name": "ITCH RELIEF CREAM 50G",
+            "newPrice": "15.33 EUR",
+            "oldPrice": "18.99 EUR",
+            "description": "Larger size itch relief cream, providing soothing relief for irritated skin.",
+            "onSale": false
+        },
+        {
+            "id": "53",
+            "image": "../assets/health/nourishing-lotion-200ml.webp",
+            "name": "NOURISHING LOTION – 200ML",
+            "newPrice": "43.84 EUR",
+            "oldPrice": "74.99 EUR",
+            "description": "Nourishing lotion for healthy and hydrated skin.",
+            "onSale": true
+        },
+        {
+            "id": "54",
+            "image": "../assets/health/scalp-tonic-100ml.webp",
+            "name": "SCALP TONIC 100ML",
+            "newPrice": "25.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Scalp tonic, promoting healthy scalp and hair growth.",
+            "onSale": true
+        },
+        {
+            "id": "55",
+            "image": "../assets/health/soothing-face-wash.webp",
+            "name": "SOOTHING FACE WASH",
+            "newPrice": "46.99 EUR",
+            "oldPrice": "69.99 EUR",
+            "description": "Face wash that soothes and cleanses, leaving your skin refreshed.",
+            "onSale": true
+        }
+    ],
+    "pet": [
+        {
+            "id": "56",
+            "image": "../assets/pet/budget-pet-carrier.jpg",
+            "name": "BUDGET PET CARRIER BY PETPLANET",
+            "newPrice": "27.99 EUR",
+            "oldPrice": "46.99 EUR",
+            "description": "Affordable and durable pet carrier, perfect for travel.",
+            "onSale": true
+        },
+        {
+            "id": "57",
+            "image": "../assets/pet/catit-treat-ball.jpg",
+            "name": "CATIT TREAT BALL",
+            "newPrice": "3.99 EUR",
+            "oldPrice": "10.99 EUR",
+            "description": "Fun treat ball for cats, keeps them entertained and active.",
+            "onSale": true
+        },
+        {
+            "id": "58",
+            "image": "../assets/pet/chuckit-air-fetch-ball.jpg",
+            "name": "CHUCKIT! AIR FETCH BALL - LARGE - 7.3CM",
+            "newPrice": "1.66 EUR",
+            "oldPrice": "8.99 EUR",
+            "description": "Durable fetch ball for dogs, perfect for outdoor play.",
+            "onSale": false
+        },
+        {
+            "id": "59",
+            "image": "../assets/pet/cyber-rugby-ball.jpg",
+            "name": "CYBER RUGBY BALL ON ROPE MEDIUM",
+            "newPrice": "3.33 EUR",
+            "oldPrice": "10.99 EUR",
+            "description": "Rugby ball on a rope, great for interactive play with your dog.",
+            "onSale": false
+        },
+        {
+            "id": "60",
+            "image": "../assets/pet/pioneer-pet-raindrop.jpg",
+            "name": "PIONEER PET RAINDROP PREMIUM PET FOUNTAIN - 1.8 LITRES",
+            "newPrice": "5.84 EUR",
+            "oldPrice": "15.99 EUR",
+            "description": "Premium pet fountain that keeps your pets hydrated with fresh water.",
+            "onSale": false
+        },
+        {
+            "id": "61",
+            "image": "../assets/pet/purrshire-incline-cat.jpg",
+            "name": "PURRSHIRE INCLINE CAT SCRATCHER",
+            "newPrice": "20.99 EUR",
+            "oldPrice": "35.99 EUR",
+            "description": "Incline cat scratcher, perfect for keeping your cat's claws healthy.",
+            "onSale": true
+        },
+        {
+            "id": "62",
+            "image": "../assets/pet/smartcat-door-climber.jpg",
+            "name": "SMARTCAT DOOR CLIMBER",
+            "newPrice": "50.99 EUR",
+            "oldPrice": "70.99 EUR",
+            "description": "Door climber for cats, promoting exercise and play.",
+            "onSale": true
+        },
+        {
+            "id": "63",
+            "image": "../assets/pet/sportpet-agillity-traning.jpg",
+            "name": "SPORTPET AGILITY TRAINING KIT",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Agility training kit for dogs, perfect for keeping them active and fit.",
+            "onSale": true
+        },
+        {
+            "id": "71",
+            "image": "../assets/pet/sportpet-agillity-traning.jpg",
+            "name": "SPORTPET AGILITY TRAINING KIT",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Agility training kit for dogs, perfect for keeping them active and fit.",
+            "onSale": false
+        },
+        {
+            "id": "72",
+            "image": "../assets/pet/sportpet-agillity-traning.jpg",
+            "name": "SPORTPET AGILITY TRAINING KIT",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Agility training kit for dogs, perfect for keeping them active and fit.",
+            "onSale": false
+        },
+        {
+            "id": "73",
+            "image": "../assets/pet/sportpet-agillity-traning.jpg",
+            "name": "SPORTPET AGILITY TRAINING KIT",
+            "newPrice": "34.99 EUR",
+            "oldPrice": "50.99 EUR",
+            "description": "Agility training kit for dogs, perfect for keeping them active and fit.",
+            "onSale": false
+        }
+    ],
+    "security": [
+        {
+            "id": "64",
+            "image": "../assets/security/anran-system-wifi.webp",
+            "name": "SYSTEM WIFI OUTDOOR WIRELESS 3MP 2K CCTV IR AUDIO 8CH",
+            "newPrice": "90.99 EUR",
+            "oldPrice": "150.99 EUR",
+            "description": "Outdoor wireless CCTV system with IR and audio, providing high-quality security.",
+            "onSale": false
+        },
+        {
+            "id": "65",
+            "image": "../assets/security/cocar-monitor-securityjpg.jpg",
+            "name": "17 SECURITY MONITOR LCD SCREEN, CLEAR IMAGE",
+            "newPrice": "168.99 EUR",
+            "oldPrice": "200.99 EUR",
+            "description": "LCD security monitor with clear image, perfect for surveillance setups.",
+            "onSale": false
+        },
+        {
+            "id": "66",
+            "image": "../assets/security/intercom-super-longjpg.jpg",
+            "name": "INTERCOMUNICADOR INTERCOM WATERPROOF DOORBELL SYSTEM UNIT FOR HOME SECURITY SYSTEMS",
+            "newPrice": "1.66 EUR",
+            "oldPrice": "8.99 EUR",
+            "description": "Waterproof intercom doorbell system, enhancing your home security.",
+            "onSale": false
+        },
+        {
+            "id": "67",
+            "image": "../assets/security/home-alarm-15piecejpg.jpg",
+            "name": "WIRELESS HOME ALARM SYSTEM 15-PIECE KIT, WIFI ALARM SYSTEM FOR HOME",
+            "newPrice": "25.33 EUR",
+            "oldPrice": "40.99 EUR",
+            "description": "Wireless home alarm system, providing comprehensive security for your home.",
+            "onSale": true
+        },
+        {
+            "id": "68",
+            "image": "../assets/security/swann-home-security-alert.webp",
+            "name": "SWANN HOME SECURITY ALERT KIT",
+            "newPrice": "125.84 EUR",
+            "oldPrice": "240.99 EUR",
+            "description": "Home security alert kit, offering reliable protection for your property.",
+            "onSale": true
+        },
+        {
+            "id": "69",
+            "image": "../assets/security/wireless-alarm-systemjpg.jpg",
+            "name": "KERUI WIRELESS ALARM SYSTEM HOME HOUSE GARAGE SHED SECURITY DOOR SENSOR BURGLAR",
+            "newPrice": "40.99 EUR",
+            "oldPrice": "55.99 EUR",
+            "description": "Wireless alarm system, perfect for securing your home, garage, or shed.",
+            "onSale": true
+        },
+        {
+            "id": "70",
+            "image": "../assets/security/xvim-outdoor-securityjpg.jpg",
+            "name": "SECURITY CAMERA SYSTEM WIRED HOME SURVEILLANCE CAMERA CCTV",
+            "newPrice": "99.99 EUR",
+            "oldPrice": "234.99 EUR",
+            "description": "Wired home surveillance camera system, providing comprehensive security coverage.",
+            "onSale": true
+        }
+    ],
+    "outdoorAndSports": [
+        {
+            "id": "64",
+            "image": "../assets/security/anran-system-wifi.webp",
+            "name": "SYSTEM WIFI OUTDOOR WIRELESS 3MP 2K CCTV IR AUDIO 8CH",
+            "newPrice": "90.99 EUR",
+            "oldPrice": "150.99 EUR",
+            "description": "Outdoor wireless CCTV system with IR and audio, providing high-quality security.",
+            "onSale": false
+        },
+        {
+            "id": "65",
+            "image": "../assets/security/cocar-monitor-securityjpg.jpg",
+            "name": "17 SECURITY MONITOR LCD SCREEN, CLEAR IMAGE",
+            "newPrice": "168.99 EUR",
+            "oldPrice": "200.99 EUR",
+            "description": "LCD security monitor with clear image, perfect for surveillance setups.",
+            "onSale": true
+        },
+        {
+            "id": "66",
+            "image": "../assets/security/intercom-super-longjpg.jpg",
+            "name": "INTERCOMUNICADOR INTERCOM WATERPROOF DOORBELL SYSTEM UNIT FOR HOME SECURITY SYSTEMS",
+            "newPrice": "1.66 EUR",
+            "oldPrice": "8.99 EUR",
+            "description": "Waterproof intercom doorbell system, enhancing your home security.",
+            "onSale": true
+        }
+    ]
+}
+

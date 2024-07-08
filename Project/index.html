@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropshipping</title>
+     <!-------------------------------------------- NAV BAR CSS ----------------------------------------->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+     <!-- <link rel="stylesheet" href="../src/search-nav.css"> -->
+     <!-------------------------------------------------------------------------------------------------->
+   
+     <!------------------------------------------ HOME PAGE CSS ----------------------------------------->
+     <link rel="stylesheet" href="../src/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+     <!-------------------------------------------------------------------------------------------------->
+ 
+     <!--------------------------------------- LOG IN / REGISTER CSS ------------------------------------>
+     <link rel="stylesheet" href="../src/log-reg.css">
+     <!-------------------------------------------------------------------------------------------------->
+ 
+     <!------------------------------------------- CONTACT PAGE CSS ------------------------------------->
+     <link rel="stylesheet" href="../src/contact.css">
+     <!-------------------------------------------------------------------------------------------------->
+ 
+     <!----------------------------------------- SALES PAGE CSS ----------------------------------------->
+     <link rel="stylesheet" href="../src/salespage.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+     <!-------------------------------------------------------------------------------------------------->
+
+     <!----------------------------------------- CART PAGE CSS --------------------------------------->
+     <link rel="stylesheet" href="../src/cart.css">
+     <!-------------------------------------------------------------------------------------------------->
+
+     <!----------------------------------------- MORE DETAILS CSS --------------------------------------->
+     <link rel="stylesheet" href="../src/moredetails.css">
+     <!-------------------------------------------------------------------------------------------------->
+
+     <!------------------------------------------- FOOTER CSS ------------------------------------------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+     <!-- Google Fonts Muli -->
+     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700&display=swap" rel="stylesheet"> 
+     <!-- <link rel="stylesheet" href="../src/footer.css"> -->
+     <!-------------------------------------------------------------------------------------------------->
+ 
+     <!---------------------------------------------- PROFILE CSS --------------------------------------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <!-------------------------------------------------------------------------------------------------->
+</head>
+<body>
+
+<!-------------------------------------------- NAV BAR -------------------------------------->
+
+<div class="navbar-inverse">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">LOGO</a>
+                </div>
+                <div class="navbar-collapse collapse" id="mobile_menu">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" id="home-link">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="category-toggle" data-toggle="dropdown">Category <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="category-menu">
+                                <li><a href="#" data-category="electronics-and-gadgets">Electronics and gadgets</a></li>
+                                <li><a href="#" data-category="fashion-and-apparel">Fashion and apparel</a></li>
+                                <li><a href="#" data-category="beauty-and-personalcare">Beauty and personal care</a></li>
+                                <li><a href="#" data-category="health-and-wellnes">Health and wellness</a></li>
+                                <li><a href="#" data-category="home-and-kitchen">Kitchen</a></li>
+                                <li><a href="#" data-category="outdoor-and-sports">Outdoor and sports</a></li>
+                                <li><a href="#" data-category="automotive-accessories">Automotive accessories</a></li>
+                                <li><a href="#" data-category="pet-supplies">Pet supplies</a></li>
+                                <li><a href="#" data-category="security-systems">Security systems</a></li>
+                                <li><a href="#" data-category="toys-kids">Toys</a></li>
+                                <li><a href="#" data-category="gardening-tools">Gardening Tools</a></li>
+                                <li><a href="#" data-category="motorcycle-accessories">Motorcycle Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" id="sale-product-link">Sale Product</a></li>
+                        <li><a href="#" id="contact-us">Contact us</a></li>
+                        <div class="container search-nav">
+                            <div class="row height d-flex justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <div class="form">
+                                        <input type="text" class="form-control form-input" placeholder="Search anything...">
+                                        <button class="form-button">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="cart-link">
+                            <a href="#" id="cart-link-a">
+                                <span class="glyphicon glyphicon-shopping-cart" id="hidden-cart"></span>Cart
+                                <span id="cart-count" class="badge hidden">0</span>
+                            </a>
+                        </li>
+                        <li id="profile-link" class="hidden"><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li id="login-signup-link" class="dropdown2"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="profile-show hidden back-color">
+    <div class="wrapper">
+        <h1>Account Settings</h1>
+        <ul class="mainMenu">
+            <li class="item" id="account">
+                <button id="my-account-profile" class="btn-profile fas fa-home">My Account</button>
+                <div class="subMenu-MyAcc">
+                    <p>First and Last Name: <span id="user-name"></span></p>
+                    <p>Email: <span id="user-email"></span></p>
+                    <p>Gender: <span id="user-gender"></span></p>
+                    <p>Date of Birth: <span id="user-dob"></span></p>
+                    <p>Time Logged In: <span id="time-logged-in"></span></p>
+                    <p>Date Registered: <span id="date-registered"></span></p>
+                </div>
+            </li>
+            <li class="item" id="change-password">
+                <button id="change-password-profile" class="btn-profile fas fa-key">Change Password</button>
+                <div class="subMenu-changePass">
+                    <p>Enter your current password:</p>
+                    <div class="password-container">
+                        <input type="password" id="current-password" class="form-control" placeholder="Current Password" required="required" />
+                        <i class="toggle-password fas fa-eye"></i>
+                    </div>
+                    <p>Enter your new password:</p>
+                    <div class="password-container">
+                        <input type="password" id="new-password" class="form-control" placeholder="New Password" required="required" />
+                        <i class="toggle-password fas fa-eye"></i>
+                    </div>
+                    <p>Please confirm your new password:</p>
+                    <div class="password-container">
+                        <input type="password" id="confirm-new-password" class="form-control" placeholder="Confirm New Password" required="required" />
+                        <i class="toggle-password fas fa-eye"></i>
+                    </div>
+                    <button id="confirm-change-password" class="btn-deactivate">CONFIRM</button>
+                    <p id="change-password-success" style="display:none;">Password successfully changed!</p>
+                </div>
+            </li>
+            <li class="item" id="deactivate-account">
+                <button id="deactivate-account-profile" class="btn-profile fas fa-user-slash">Deactivate Account</button>
+                <div class="subMenu-DeactivateAccount">
+                    <p>Enter your email address:</p>
+                    <div class="password-container">
+                        <input type="text" id="deactivate-email" class="form-control" placeholder="Your email" required="required" />
+                    </div>
+                    <p>Enter your password to confirm your deactivation:</p>
+                    <div class="password-container">
+                        <input type="password" id="deactivate-password" class="form-control" placeholder="Your password" required="required" />
+                        <i class="toggle-password fas fa-eye"></i>
+                    </div>
+                    <button id="confirm-deactivate-account" class="btn-deactivate">CONFIRM</button>
+                    <p id="deactivate-success" style="display:none;">Account successfully deactivated!</p>
+                </div>
+            </li>
+            <li class="item" id="logout-btn">
+                <button id="Logout-Profile" class="btn-profile fas fa-sign-out-alt">Log Out</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-------------------------------------------- SALES PAGE ----------------------------------->
+
+<div id="bcground" class="bcground">
+    <div class="mainsale">
+        <h1 id="productmain">PRODUCT ON SALE</h1>
+        <div id="exp-time">
+            <p class="text-center theTime">EXPIRY TIME</p>
+            <div id="timer"></div>
+        </div>
+    </div>
+
+    <div class="container-sale" id="sale-hidden">
+        <div class="row" id="slider-text">
+            <div class="col-md-3">
+                <h2 data-category="kitchen">Kitchen</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="toys">Toys</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="gardening">Gardening Tools</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="electronics">Electronics and Gadgets</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="fashion">Fashion and Apparel</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="health">Health and Wellness</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="pet">Pet Supplies</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="security">Security Systems</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 data-category="outdoorAndSports">Outdoor and Sports</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="sort-container">
+        <label for="sort-options">Sort by:</label>
+        <select id="sort-options" onchange="sortProducts(this.value)">
+            <option value="" disabled selected>Choose an option</option>
+            <option value="lower-price">Price Low > High</option>
+            <option value="higher-price">Price High < Low</option>
+            <option value="highest-offer">Highest Discount</option>
+            <option value="alphabetical">A to Z Sort</option>
+        </select>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="products">
+            <!-- Овде се прикажани продуктите -->
+        </div>
+    </div>
+    
+</div>
+
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------- HOME PAGE ------------------------------------>
+<div class="homepagehidden">
+    <div id="carouselContainer" class="position-relative" style="width: 100%; height: 700px;">
+        <div class="quote">Home is not a place, it's a feeling</div>
+        <img src="templates/img/home.png" class="d-block w-100 picture" alt="...">
+        <div>
+            <h2 class="Categorytitle"></h2>
+        </div>
+        <a href="#Categories"><button class="homeBtn">Explore your interests</button></a> 
+    </div>
+
+    <!--========================================== CARD CATEGORIES (Home Page)==========================================-->
+
+    <div class="category-section">
+    <section class="backgroundColor pt-5 pb-5 shadow-sm">
+    <div>
+        <h2 id="Categories" class="CategoriesTitle pt-3 pb-5 linear">Categories</h2>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Electronics_and_Gadgets.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Electronics and Gadgets</h5>
+                        <hr>
+                        <p class="card-text mb-4">Electronics and Gadgets represent one of the most dynamic and
+                            sought-after categories in the dropshipping industry. This category encompasses a wide
+                            range of products, including smart home devices, wearable technology, smartphone
+                            accessories.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3 " id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Fashion_and_Apparel.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Fashion and Apparel</h5>
+                        <hr>
+                        <p class="card-text mb-4">Fashion and Apparel is a vibrant and ever-evolving category in the
+                            dropshipping market. This niche includes a wide variety of products such as women's,
+                            men's, and children's clothing, accessories, footwear, and seasonal fashion items.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Beauty_and_Personal_Care.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Beauty and Personal Care</h5>
+                        <hr>
+                        <p class="card-text mb-4">Beauty and Personal Care is a flourishing and lucrative category
+                            in the dropshipping industry. This niche includes a broad spectrum of products such as
+                            skincare essentials, makeup, hair care items, fragrances, and grooming tools.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Health_and_Wellness.png" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Health and Wellness</h5>
+                        <hr>
+                        <p class="card-text mb-4">Health and Wellness is a thriving niche within the dropshipping
+                            industry, reflecting the growing global interest in self-care and holistic living. This
+                            category encompasses a wide array of products designed to support physical and mental
+                            well-being, including supplements, vitamins, fitness equipment.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Home_and_Kitchen.png" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Home and Kitchen</h5>
+                        <hr>
+                        <p class="card-text mb-4">The Home and Kitchen niche is a cornerstone of the dropshipping
+                            market, catering to the essential needs and desires of homeowners and cooking
+                            enthusiasts alike. This category encompasses a broad spectrum of products, ranging from
+                            kitchen gadgets and appliances to home decor and organization solutions.</p>
+                    </div>
+                    <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Outdoor_and_Sports.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Outdoor and Sports</h5>
+                        <hr>
+                        <p class="card-text mb-4">The Outdoor and Sports niche offers a vast array of products
+                            designed to inspire adventure, promote fitness, and facilitate outdoor recreation. From
+                            camping gear and hiking essentials to fitness equipment and sports accessories, this
+                            category caters to outdoor enthusiasts, athletes, and fitness enthusiasts alike. </p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Automotive_Accessories.png" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Automotive Accessories</h5>
+                        <hr>
+                        <p class="card-text mb-4">Automotive Accessories represent a thriving segment within the
+                            dropshipping industry, appealing to car enthusiasts, DIY mechanics, and everyday drivers
+                            seeking to enhance their vehicles' performance, appearance, and functionality.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Pet_Supplies.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pet Supplies</h5>
+                        <hr>
+                        <p class="card-text mb-4">The Pet Supplies niche is a thriving sector within the
+                            dropshipping industry, catering to the needs and desires of pet owners who consider
+                            their furry friends part of the family. This category encompasses a diverse range of
+                            products, including pet food, toys, grooming supplies.</p>
+                    </div>
+                    <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Security_Systems.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Security Systems</h5>
+                        <hr>
+                        <p class="card-text mb-4">The Security Systems niche is a vital component of the
+                            dropshipping market, addressing the ever-growing need for safety and peace of mind among
+                            homeowners and businesses. This category encompasses a wide range of products, including
+                            surveillance cameras, alarm systems.</p>
+                        <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Biking_Gear.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Biking Gear</h5>
+                        <hr>
+                        <p class="card-text mb-4">Biking Gear is an exciting and rewarding market segment. This category offers a wide variety of products including high-quality helmets, durable gloves, advanced cycling computers, protective eyewear, and specialized clothing, catering to both casual cyclists and serious enthusiasts.</p>
+                    </div>
+                    <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="../templates/img/Swimming_Equipments.png" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Swimming Accessories</h5>
+                        <hr>
+                        <p class="card-text mb-4">wimming Accessories represent a vibrant and profitable niche in the dropshipping industry. This category features an extensive selection of products, from high-performance swimwear and anti-fog goggles to ergonomic swim caps, training equipment, and essential poolside gear, catering to swimmers of all levels.</p>
+                    </div>
+                    <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch hovering text-center">
+                <div class="card shadwo tilt">
+                    <img src="/templates/img/Motorcycle_Accessories.jpg" class="card-img-top" id="pic" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Motorcycle Accessories</h5>
+                        <hr>
+                        <p class="card-text mb-4">Motorcycle Accessories is a thriving and profitable category in the dropshipping industry. This niche encompasses a wide array of products including protective gear, performance parts, custom modifications, maintenance tools, and stylish apparel.</p>
+                    </div>
+                    <a href="#" class="btn mt-auto align-self-center mb-3" id="button-explore">Explore</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<!------------------------------------------------------------------------------------------->
+
+<!--------------------------------------- LOG IN / REGISTER --------------------------------->
+<div class="log-reg-hidden" id="login-signup-form">
+    <div class="panda">
+        <div class="ear"></div>
+        <div class="face">
+            <div class="eye-shade"></div>
+            <div class="eye-white">
+                <div class="eye-ball"></div>
+            </div>
+            <div class="eye-shade rgt"></div>
+            <div class="eye-white rgt">
+                <div class="eye-ball"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="body"></div>
+        <div class="foot">
+            <div class="finger"></div>
+        </div>
+        <div class="foot rgt">
+            <div class="finger"></div>
+        </div>
+    </div>
+
+    <div class="login-after-log">
+    <form id="login-form" class="hidden">
+        <div class="hand"></div>
+        <div class="hand rgt"></div>
+        <h1>Login</h1>
+        <div class="form-group">
+            <input required="required" class="form-control" id="login-email" autocomplete="off" placeholder="Email" />
+            <br>
+            <input id="password" type="password" required="required" class="form-control" placeholder="Password"/>
+            <p class="forgot-password"><a href="#" id="forgot-password-link">Forgot Password?</a></p>
+        </div>
+        <div class="form-group">
+            <button type="button" id="login-btn" class="btn">Login</button>
+            <button type="button" id="login-sign-up-btn" class="btn secondary-btn">Sign Up</button>
+            <p class="alert" style="display: none;">Invalid Credentials..!!</p>
+        </div>
+    </form>
+    </div>
+</div>
+
+<form id="sign-up-form" class="hidden">
+    <div class="hand"></div>
+    <div class="hand rgt"></div>
+    <h1>Sign Up</h1>
+    <div class="form-group">
+        <input required="required" class="form-control" id="first-last-name" placeholder="First and Last name"/>
+        <br>
+        <input required="required" class="form-control" id="email" placeholder="Email"/>
+        <br>
+        <input required="required" class="form-control" id="dob" placeholder="Date of Birth (dd/mm/yyyy)" maxlength="10" pattern="\d{2}/\d{2}/\d{4}" title="Date of Birth (dd/mm/yyyy)">
+        <br>
+        <select required="required" class="form-control" id="gender" aria-placeholder="Gender">
+            <option value="" disabled selected>Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <input required="required" type="password" class="form-control" id="sign-up-password" placeholder="Password" />
+    </div>
+    <button type="submit" id="sign-up-submit-btn color" class="btn form-btn">Sign Up</button>
+    <button type="button" id="back-to-login-btn" class="btn form-btn">Back to Login</button>
+</form>
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------- CONTACT PAGE --------------------------------->
+<div class="contact-hidden" id="contactHidden">
+    <div class="wrapper">
+      <div class="title">
+        <h1>Contact Us Form</h1>
+      </div>
+      <div class="contact-form">
+        <div class="input-fields">
+          <input type="text" id="name" class="input" placeholder="Name">
+          <input type="text" id="email-contact" class="input" placeholder="Email Address">
+          <input type="text" id="phone" class="input" placeholder="Phone">
+          <input type="text" id="subject" class="input" placeholder="Subject">
+        </div>
+        <div class="msg">
+          <textarea id="message" placeholder="Message"></textarea>
+          <button id="send" class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------------------->
+
+<!--------------------------------------CATEGORY PAGE --------------------------------------->
+
+<!------------------------------------------------------------------------------------------->
+
+
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------- CART PAGE ------------------------------------>
+<div class="cart-container">
+    <h1>Your Shopping Cart</h1>
+    <hr class="custom-hr">
+
+    <div class="cart-content">
+        <div class="cart-items-container">
+            <div id="empty-cart-message" class="hidden">Your cart is currently empty.</div>
+            <div class="cart-items">
+                <!-- Cart items will be appended here dynamically -->
+            </div>
+        </div>
+
+        <div class="cart-summary-container">
+            <div class="cart-summary">
+                <h2>Cart Summary</h2>
+                <div class="summary-item">
+                    <p>Subtotal: <span id="subtotal">.00</span> EUR</p>
+                    <p>Estimated Shipping: Free</p>
+                    <hr>
+                    <h3>Total: <span id="total">.00</span> EUR</h3>
+                    <button id="payment-info" class="button-primary">Payment Information</button>
+                    <button class="truck-button">
+                        <span class="default">Complete Order</span>
+                        <span class="success">
+                            Order Placed
+                            <svg viewBox="0 0 12 10">
+                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                            </svg>
+                        </span>
+                        <div class="truck">
+                            <div class="wheel"></div>
+                            <div class="back"></div>
+                            <div class="front"></div>
+                            <div class="box"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <br>
+            <div class="container-shipping-info">
+                <h1>Shipping</h1>
+                <p>Please enter your shipping details.</p>
+                <hr />
+                <div class="form-shipping-info">
+                    <div class="fields-shipping-info fields-shipping-info--2">
+                        <label class="field-shipping-info">
+                            <span class="field-shipping-info__label" for="firstname">First name</span>
+                            <input class="field-shipping-info__input" type="text" id="firstname" value=" " />
+                        </label>
+                        <label class="field-shipping-info">
+                            <span class="field-shipping-info__label" for="lastname">Last name</span>
+                            <input class="field-shipping-info__input" type="text" id="lastname" value=" " />
+                        </label>
+                    </div>
+                    <label class="field-shipping-info">
+                        <span class="field-shipping-info__label" for="address">Address</span>
+                        <input class="field-shipping-info__input" type="text" id="address" />
+                    </label>
+                    <label class="field-shipping-info">
+                        <span class="field-shipping-info__label" for="country">Country</span>
+                        <select class="field-shipping-info__input" id="country">
+                            <option value=""></option>
+                            <option value="unitedstates">United States</option>
+                            <option value="macedonia">Macedonia</option>
+                            <option value="germany">Germany</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                            <!-- Додади повеќе земји по потреба -->
+                        </select>
+                    </label>
+                    <div class="fields-shipping-info fields-shipping-info--3">
+                        <label class="field-shipping-info">
+                            <span class="field-shipping-info__label" for="zipcode">Zip code</span>
+                            <input class="field-shipping-info__input" type="text" id="zipcode" />
+                        </label>
+                        <label class="field-shipping-info">
+                            <span class="field-shipping-info__label" for="city">City</span>
+                            <input class="field-shipping-info__input" type="text" id="city" />
+                        </label>
+                        <label class="field-shipping-info">
+                            <span class="field-shipping-info__label" for="state">State</span>
+                            <select class="field-shipping-info__input" id="state">
+                                <option value=""></option>
+                                <option value="skopje">Skopje</option>
+                                <option value="texas">Texas</option>
+                                <option value="newyork">New York</option>
+                                <option value="florida">Florida</option>
+                                <!-- Додади повеќе држави по потреба -->
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <hr>
+                <button class="button-shipping-info" disabled>Continue</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------- MORE DETAILS --------------------------------->
+
+<div class="container-moredetails " style="display: none;">
+    <div class="wrapper-details">
+        <div class="card-details">
+            <div class="product-left">
+                <div class="header">
+                    <h1 id="product-name">Product Name</h1>
+                    <hr>
+                    <div class="reviews">
+                        <h5>Write review</h5>
+                        <span class="stars" data-rating="0">
+                            <span class="star" id="star1" data-value="1">★</span>
+                            <span class="star" id="star2" data-value="2">★</span>
+                            <span class="star" id="star3" data-value="3">★</span>
+                            <span class="star" id="star4" data-value="4">★</span>
+                            <span class="star" id="star5" data-value="5">★</span>
+                        </span>
+                    </div>
+                    <div class="review-form" style="display: none;">
+                        <textarea id="review-text" placeholder="Write your review here..."></textarea>
+                        <button id="submit-review">Submit</button>
+                    </div>
+                    <div class="review-success" style="display: none;">Review submitted successfully!</div>
+                    <div class="login-alert" style="display: none; color: red;">You must be logged in to submit a review.</div>
+                    <br>
+                </div>
+                <div class="product-details">
+                    <div class="product-total">
+                        <h3>Total Price</h3>
+                        <p id="product-price"></p>
+                    </div>
+                </div>
+                <div class="product-main">
+                    <div class="focus">
+                        <span>Description</span>
+                    </div>
+                    <p id="product-description"></p>
+                </div>
+                <div class="product-btns">
+                    <button class="product-add" data-product-id="">Add to Cart</button>
+                    <button class="all-reviews" data-id="">All Reviews</button>
+                    <button class="back-home">Back to home</button>
+                </div>
+            </div>
+            <div class="product-right">
+                <img id="product-image" src="" alt="">
+            </div>
+        </div>
+        <div class="all-reviews-container" style="display: none;">
+            <div class="reviews-list">
+                <!-- Овде ќе се прикажат прегледите -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------------------------------------------------------------------------->
+
+<!------------------------------------------------ FOOTER ----------------------------------->
+
+    <footer class="footer">
+        <div class="bubbles"></div>
+        <div class="footer-content">
+            <div class="about-logo">
+                <img src="#" alt="Your Logo">
+            </div>
+            <div class="footer-section about">
+                <h1>About Us</h1>
+                <p>At <strong>[Your Store Name]</strong>, we believe in providing a seamless and delightful shopping
+                    experience for our customers around the globe. Since our inception in <strong>2023</strong>, we have been committed
+                    to bringing you the latest and most innovative products from trusted suppliers, ensuring quality and
+                    satisfaction with every purchase.</p>
+            </div>
+            <div class="footer-section links">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#section3">Sale</a></li>
+                    <li><a href="#section1">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <div class="footer-section links">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div> -->
+            <div class="panel-container">
+                <img id="img-subscr" width="200px" src="../assets/subscribe-footer.webp" alt="">
+                <h3>
+                    Subscribe to our Newsletter <br />
+                </h3>
+                <input required="required" class="form-control" id="email-subscribe" placeholder="Email"/>
+                <button type="submit" id="button-subscribe">Subscribe</button>
+                <div class="message" id="subscribe-message"></div>
+            </div> 
+    </footer>
+    <svg style="position: fixed; top: 100vh;">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob" />
+            </filter>
+        </defs>
+    </svg>
+
+<!------------------------------------------------------------------------------------------->
+
+
+
+
+<!-------------------------------- CART PAGE SCRIPT ----------------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="../src/cart.js"></script>
+<!------------------------------------------------------------------------------------------->
+
+<!----------------------------- MORE DETAILS SCRIPT ----------------------------------------->
+<script src="../src/moredetails.js"></script>
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------- FOOTER SCRIPT ----------------------------------------=--->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+crossorigin="anonymous"></script>
+<script src="../src/footer.js"></script>
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------- NAV BAR SCRIPT ------------------------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------- HOME PAGE SCRIPT ----------------------------------------->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+crossorigin="anonymous"></script>
+
+<script src="../src/script.js"></script>
+<script type="text/javascript" src="../src/vanilla-tilt.js"></script>
+<script type="text/javascript">
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 25,
+    speed: 400
+});
+</script>
+<!------------------------------------------------------------------------------------------->
+
+<!----------------------------- LOG IN REGISTER SCRIPT -------------------------------------->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../src/log-reg.js"></script>
+<!------------------------------------------------------------------------------------------->
+
+<!-------------------------------- CONTACT SCRIPT ------------------------------------------->
+<script src="../src/contact.js"></script>
+<!------------------------------------------------------------------------------------------->
+<script src="../products.json"></script>
+<!-------------------------------- SALES PAGE SCRIPT ---------------------------------------->
+<script src="../src/salespage.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!------------------------------------------------------------------------------------------->
+
+</body>
+</html>

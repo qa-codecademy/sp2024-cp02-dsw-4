@@ -1,0 +1,246 @@
+:root {
+    --primary: rgb(66, 66, 66);
+    --secondary: #ccc5b9;
+}
+
+.container-moredetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapper-details {
+    background-color: #F7F0E9;
+    padding: 30px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-details {
+    max-width: 90rem;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: -2rem 2rem 3.2rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.product-left {
+    height: 100%;
+    width: 70%;
+    padding: 4rem 2rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.product-right {
+    background: rgb(66, 66, 66);
+    height: auto;
+    width: 30%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-right img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.reviews {
+    margin-top: 5px;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.stars .star {
+    display: inline-block;
+}
+
+.stars .star:hover,
+.stars .star:hover ~ .star {
+    color: gold;
+}
+
+.stars .star:nth-child(1):hover ~ .star,
+.stars .star:nth-child(2):hover ~ .star,
+.stars .star:nth-child(3):hover ~ .star,
+.stars .star:nth-child(4):hover ~ .star,
+.stars .star:nth-child(5):hover ~ .star {
+    color: white;
+}
+
+.stars .star:nth-child(1):hover,
+.stars .star:nth-child(2):hover,
+.stars .star:nth-child(3):hover,
+.stars .star:nth-child(4):hover,
+.stars .star:nth-child(5):hover {
+    color: gold;
+}
+
+.review-form {
+    margin-top: 10px;
+}
+
+#review-text {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    height: 100px;
+}
+
+#submit-review {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.review-success {
+    color: green;
+    margin-top: 10px;
+}
+
+.login-alert {
+    margin-top: 10px;
+    color: red;
+}
+
+.product-main p {
+    opacity: 0.5;
+    margin: 2rem 0;
+    line-height: 1.45;
+}
+
+.focus {
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    padding: 0 0 0.9rem 0;
+}
+
+.focus span:last-child {
+    margin: 0 0 0 1rem;
+    width: 100%;
+}
+
+.focus span:first-child {
+    border-bottom: 0.2rem solid #fff;
+    padding: 0 0 0.9rem 0;
+}
+
+.product-total {
+    margin: 0 0 2rem 0;
+}
+
+.product-total p {
+    font-weight: 700;
+    font-size: 2rem;
+    color: red;
+}
+
+.product-total h3 {
+    margin: 0 0 1rem 0;
+}
+
+.product-btns {
+    display: flex;
+    margin-top: 20px;
+    gap: 1%;
+}
+
+.product-btns button {
+    flex: 1;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ec5858;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product-btns button:hover {
+    background-color: #fff;
+    color: var(--primary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.all-reviews-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviews-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%; /* Ensure each review takes full width */
+    box-sizing: border-box;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-item h4,
+.review-item p,
+.review-item span {
+    margin: 5px 0;
+}
+
+.review-item .remove-review {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.review-item .remove-review:hover {
+    background-color: #c82333;
+}
+#review-text::placeholder {
+    color: #888; /* Change the placeholder color to make it visible */
+    opacity: 1; /* Ensure placeholder is fully visible */
+}

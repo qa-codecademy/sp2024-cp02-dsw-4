@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+#login-signup-form {
+  background: #F7F0E9;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+  height: 100%; 
+  padding-top: 50px;
+  width: 100%;
+}
+.login-after-log{
+  padding-top: 54px;
+}
+.panda {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+.panda.signup .foot {
+  top: auto;
+  top: 38em;
+}
+
+
+.panda.signup .foot.rgt {
+  top: auto;
+  top: 38em;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 100%;
+  margin: auto;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  z-index: 50;
+  position: relative;
+  border: 1px solid black;
+}
+
+.ear {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #f9f9f9;
+  z-index: 5;
+  border: 10px solid #000000;
+  left: -15px;
+  top: -15px;
+  border-radius: 100%;
+}
+
+.ear:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  z-index: 5;
+  border: 10px solid #000000;
+  left: 125px;
+  top: -15px;
+  border-radius: 100%;
+}
+
+.eye {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+
+.eye:nth-child(2) {
+  left: 100px;
+  /* Adjust for the second eye */
+}
+
+.eye-shade {
+  background: #000;
+  width: 50px;
+  height: 80px;
+  margin: 10px;
+  position: absolute;
+  top: 35px;
+  left: 25px;
+  transform: rotate(220deg);
+  border-radius: 25px / 20px 30px 35px 40px;
+}
+
+.eye-shade.rgt {
+  transform: rotate(140deg);
+  left: 105px;
+}
+
+.eye-white {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+  z-index: 500;
+  left: 40px;
+  top: 80px;
+  overflow: hidden;
+}
+
+.eye-white.rgt {
+  right: 40px;
+  left: auto;
+}
+
+.eye-ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nose {
+  position: absolute;
+  height: 20px;
+  width: 35px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50px 20px / 30px 15px;
+  transform: rotate(15deg);
+  background: #000;
+}
+
+.body {
+  background: #fff;
+  position: absolute;
+  top: 255px;
+  left: -20px;
+  border-radius: 100px 100px 100px 100px / 126px 126px 96px 96px;
+  width: 250px;
+  height: 282px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.panda.signup .body {
+  background: #fff;
+  position: absolute;
+  top: 350px;
+  left: -20px;
+  border-radius: 100px 100px 100px 100px / 126px 126px 96px 96px;
+  width: 250px;
+  height: 282px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hand {
+  width: 40px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  background: #000;
+  margin: 5px;
+  position: absolute;
+  top: 70px;
+  left: -25px;
+}
+
+.hand:after,
+.hand:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  background: #000;
+  left: -5px;
+  top: 11px;
+}
+
+.hand:before {
+  top: 26px;
+}
+
+.hand.rgt {
+  left: auto;
+  right: -25px;
+}
+
+.hand.rgt:after,
+.hand.rgt:before {
+  left: auto;
+  right: -5px;
+}
+
+.foot {
+  top: 440px;
+  left: -80px;
+  position: absolute;
+  background: #000;
+  z-index: 1400;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 40px 40px 39px 40px / 26px 26px 63px 63px;
+  width: 82px;
+  height: 120px;
+}
+
+.foot:after {
+  content: '';
+  width: 55px;
+  height: 65px;
+  background: #222;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.finger {
+  position: absolute;
+  width: 25px;
+  height: 35px;
+  background: #222;
+  border-radius: 100%;
+  top: 10px;
+  right: 5px;
+}
+
+.finger:after,
+.finger:before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 35px;
+  background: #222;
+  border-radius: 100%;
+  right: 30px;
+  top: 0;
+}
+
+.finger:before {
+  right: 55px;
+  top: 5px;
+}
+
+.foot.rgt {
+  left: auto;
+  right: -80px;
+}
+
+.foot.rgt .finger {
+  left: 5px;
+  right: auto;
+}
+
+.foot.rgt .finger:after {
+  left: 30px;
+  right: auto;
+}
+
+.foot.rgt .finger:before {
+  left: 55px;
+  right: auto;
+}
+
+form {
+  display: none;
+  max-width: 400px;
+  padding: 20px 40px;
+  background: #fff;
+  height: auto;
+  margin: auto;
+  display: block;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  position: relative;
+  transform: translateY(-100px);
+  z-index: 500;
+  border: 1px solid #eee;
+}
+
+#sign-up-form {
+  height: auto;
+  padding-bottom: 20px;
+  margin-top: -430px;
+  margin-bottom: -1px;
+}
+
+#sign-up-form .btn {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+#sign-up-form #back-to-login-btn {
+  width: 50%;
+  margin-top: 10px;
+}
+
+form.up {
+  transform: translateY(-180px);
+}
+
+#sign-up-form h1 {
+  text-align: center;
+
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.btn-profile{
+  padding: 5px;
+  height: 35px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #DF5333;
+}
+
+.btn {
+  background-color: rgb(66, 66, 66);
+  padding: 5px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 50px rgb(66, 66, 66) inset;
+}
+
+
+.secondary-btn {
+  margin-top: 10px;
+}
+
+
+
+.btn:focus {
+  outline: none;
+}
+
+#login-btn {
+  width: 50%;
+
+}
+
+#login-sign-up-btn {
+  width: 50%;
+}
+
+#sign-up-submit-btn,
+#back-to-login-btn {
+  display: block;
+  width: 50%;
+  height: 35px;
+  margin: 10px auto;
+}
+
+.form-group {
+  position: relative;
+  font-size: 15px;
+  color: #666;
+}
+
+.form-group+.form-group {
+  margin-top: 30px;
+}
+
+.form-label {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 5px;
+  transition: 0.3s;
+}
+
+.form-label.fixed-label {
+  top: -20px;
+  left: 0;
+  /* color: #0be6ba; */
+  color: #000;
+  font-size: 12px;
+}
+
+.form-control {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background: none;
+  border: none;
+  padding: 5px 0;
+  transition: 0.3s;
+  border-bottom: 1px solid #777;
+  color: #e74c3c;
+}
+
+.form-control:invalid {
+  outline: none;
+}
+
+.form-control:focus,
+.form-control:valid {
+  outline: none;
+  /* box-shadow: 0 1px #0be6ba; */
+  box-shadow: 0 1px black;
+  /* border-color: #0be6ba; */
+  border-color: #000;
+}
+
+.form-control:focus+.form-label,
+.form-control:valid+.form-label {
+  font-size: 12px;
+  /* color: #0be6ba; */
+  color: #000;
+  transform: translateY(-15px);
+}
+
+/* .alert {
+  position: absolute;
+  color: #f00;
+  font-size: 16px;
+  right: -180px;
+  top: -300px;
+  z-index: 200;
+  padding: 30px 25px;
+  background: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.4s 0.6s linear;
+} */
+
+/* .alert:after,
+.alert:before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  left: -19px;
+  bottom: -8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+} */
+
+/* .alert:before {
+  width: 15px;
+  height: 15px;
+  left: -35px;
+  bottom: -25px;
+}
+
+.wrong-entry {
+  animation: wrong-log 0.3s;
+}
+
+.wrong-entry .alert {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.password-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #0be6ba;
+} */
+
+@keyframes eye-blink {
+  to {
+    height: 30px;
+  }
+}
+
+@keyframes wrong-log {
+
+  0%,
+  100% {
+    left: 0;
+  }
+
+  20%,
+  60% {
+    left: 20px;
+  }
+
+  40%,
+  80% {
+    left: -20px;
+  }
+}
+
+/* Додадете ги вашите CSS стилови тука */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+} 
+
+ .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+  z-index: 1001;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.forgot-password {
+  font-size: 0.6em;
+  text-align: left;
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+} 
+
+.profile-show {
+  background-color: #F7F0E9;
+  padding: 0px;
+}
+
+/* .profile-show {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+} */
+
+.wrapper {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+/* .item .btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #e74c3c;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+} */
+
+
+
+/* .item .btn:hover {
+  background: #0056b3;
+} */
+
+
+
+/* .form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group .form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+/* .form-group .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+} */
+
+/* .btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+} */
+
+/* .btn-primary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+} */
+
+/* .btn-secondary {
+  background: #727d6c;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #645656;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: #e74c3c;
+}
+
+.btn-warning:hover {
+  background: #e74c3c;
+} */
+
+.hidden {
+  display: none;
+}
+
+/* form {
+  display: block;
+  max-width: 400px;
+  padding: 20px 40px;
+  background: #fff;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  position: relative;
+  transform: translateY(-100px);
+  z-index: 500;
+  border: 1px solid #eee;
+} */
+
+#login-form.hidden,
+#sign-up-form.hidden {
+  display: none; /* Скријте ги формите со класа hidden */
+}
+
+
+
+/* PROFILE CSS */
+.subMenu-MyAcc, .subMenu-changePass, .subMenu-DeactivateAccount {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.subMenu-changePass p, .subMenu-DeactivateAccount p{
+  font-weight: bold;
+}
+.subMenu-MyAcc p, .subMenu-changePass input, .subMenu-DeactivateAccount input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  font-weight: bold;
+  display: block; /* This makes the elements block-level */
+  width: 100%; /* This ensures the inputs take full width */
+  box-sizing: border-box; /* This ensures padding is included in the width */
+}
+
+.subMenu-MyAcc p span, .subMenu-changePass input, .subMenu-DeactivateAccount input {
+  font-weight: normal;
+}
+
+.profile-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  padding-bottom: 80px;
+}
+
+.wrapper {
+  text-align: center;
+  border: 3px solid black;
+}
+
+.mainMenu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+.btn-profile {
+  background-color: #DF5333;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.btn-profile:hover {
+  background-color: #c44a2f;
+}
+
+.subMenu-DeactivateAccount button, .subMenu-changePass button {
+  background-color: #DF5333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.subMenu-DeactivateAccount button:hover {
+  background-color: #c44a2f;
+}
+
+.change-password-success{
+  color: green;
+}
+
+.password-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.password-container .form-control {
+  width: 100%;
+  padding-right: 30px; /* Space for the toggle icon */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+  position: relative;
+  z-index: 1; /* Ensure input is below the icon */
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-55%); /* Adjust this value for fine-tuning the vertical position */
+  cursor: pointer;
+  z-index: 2; /* Ensure the icon is above the input field */
+  color: #000; /* Ensure the icon is visible */
+}
+.wrapper h1{
+  color: white;
+  margin-bottom: 30px;
+}

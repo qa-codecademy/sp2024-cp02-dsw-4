@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* =================================================== */
+/* DODADENO E OVA ISKR NE ZNAM SHTO KAKO, BITNO RABOTI */
+#carouselContainer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.carouselWrapper {
+    height: 700px;
+}
+
+/* =================================================== */
+.navbar-nav > li.active > a {
+    background-color: #333 !important; /* Потемна боја по ваш избор */
+    color: #fff !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: #555 !important; /* Мала промена на бојата при hover */
+    color: #fff !important;
+}
+.MainDiv {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.SubmainDiv {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(77, 51, 51);
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.CategoryDiv {
+    background-color: black;
+}
+
+.Categorytitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7a7a7a;
+    padding: 10px 20px;
+    font-size: 80px;
+    color: whitesmoke;
+    border-color: black;
+    text-align: center;
+    text-shadow:
+        -3px 0 0 #000000,
+        0 -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000;
+    font-style: italic;
+    animation: quotes .7s ease-in-out;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes slide-in {
+    0% {
+        display: none;
+        transform: translateY(-200%);
+        transform: translateX(-50%);
+        color: transparent;
+        text-shadow: none;
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-50%);
+        opacity: 1;
+        font-size: 80px;
+        color: whitesmoke;
+    }
+}
+
+.homeBtn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    background-color: rgb(237, 237, 237, 0.20);
+    border-radius: 20px;
+    border: 3px solid rgb(198, 198, 198);
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: background-color .7s ease;
+    z-index: 1000;
+}
+
+.homeBtn:hover {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: rgb(218, 216, 214);
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px 20px;
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+.quote {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7a7a7a;
+    padding: 10px 20px;
+    font-size: 50px;
+    color: whitesmoke;
+    border-color: black;
+    text-align: center;
+    text-shadow:
+        -3px 0 0 #000000,
+        0 -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000;
+    font-style: italic;
+    animation: quotes .7s ease-in-out;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes quotes {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -200%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.CategoriesTitle {
+    color: #DF5333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow:
+        3px 0 0 #000000,
+        0 -1px 0 #000000,
+        2px 1px 0 #000000,
+        2px 1px 0 #000000;
+}
+
+
+.upper {
+    top: 40%;
+}
+
+.backgroundColor {
+    background: #F7F0E9;
+}
+
+.hovering {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hovering:hover {
+    transform: scale(1.05);
+}
+
+.shadwo {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.shadwo:hover {
+    box-shadow: 2px 6px 12px rgba(53, 53, 53, 0.75);
+    border-radius: 10px;
+}
+.card-img-top{
+    width: 100%;
+    height: 250px;
+}
+.pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+/* #contactHidden{
+    margin-bottom: 7%;
+} */
+
+/* .container-fluid{
+    margin-bottom: 5%;
+    height: 100%;
+} */
+.card {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 24%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body > * {
+    flex-shrink: 0;
+}
+
+.card-body .card-text {
+    flex-grow: 1;
+}
+
+.card-body .btn {
+    flex-shrink: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.log-reg-hidden {
+    display: none; /* Initially hide the login/register section */
+}
+
+.homepagehidden, .bcground {
+    display: none; /* Initially hide both home and sales sections */
+}
+
+.contact-hidden {
+    display: none;
+
+}
+
+/* .category-section{
+    padding-top: 180px;
+} */
+
+/*---------------- SEARCH NAV BAR -----------*/
+.search-nav{
+    margin-top: 0.7%;
+}
+
+.form {
+    display: flex;
+}
+.form-input {
+    flex-grow: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #555;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 0 20px;
+}
+.form-button:hover {
+    background-color: #343434;
+    border: 1px solid #ffffff;
+}
+
+#button-explore{
+    color: white;
+}
